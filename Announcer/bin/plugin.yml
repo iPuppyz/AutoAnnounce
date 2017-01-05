@@ -1,0 +1,5 @@
+name: AutoAnnounce
+version: 1.0
+author: iPuppyz
+description: An easy AutoAnnounce plugin!
+main: me.puppyz.announcer.Main
