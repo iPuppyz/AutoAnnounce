@@ -5,11 +5,9 @@ Time: 300
 #1800 seconds = 30 minutes
 #3600 seconds = 60 hours (1 hour)
 
-
-#ALL THE BELOW SUPPORT '&' COLOUR CODES!
-TopBorder: '??7??n-----------------------------------'
+TopBorder: '-----------------------------------'
 Broadcasts:
   - 'Come and have a chat on TeamSpeak using the ip: ts.testserver.org!'
   - 'You are playing on: Test Server!'
   - 'Remember to check out our forums at www.testserver.org!'
-BottomBorder: '??7??n-----------------------------------'
+BottomBorder: '-----------------------------------'
