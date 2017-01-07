@@ -24,13 +24,16 @@ public class Main extends JavaPlugin {
           Main.this.broadcastnumber = broadcasts;
         }
         String header = Main.this.getConfig().getString("TopBorder");
-        Bukkit.getServer().broadcastMessage(header);
+        String colouredHeader = ChatColor.tanslateAlternateColorCodes('&', header);
+        Bukkit.getServer().broadcastMessage(colouredHeader);
         
         String message = (String)Main.this.getConfig().getStringList("Broadcasts").get(Main.this.broadcastnumber - 1);
-        Bukkit.getServer().broadcastMessage(message);
+        String colouredMessage = ChatColor.tanslateAlternateColorCodes('&', message);
+        Bukkit.getServer().broadcastMessage(colouredMessage);
         
         String footer = Main.this.getConfig().getString("BottomBorder");
-        Bukkit.getServer().broadcastMessage(footer);
+        String colouredFooter = ChatColor.tanslateAlternateColorCodes('&', footer);
+        Bukkit.getServer().broadcastMessage(colouredFooter);
         
         Main.this.broadcastnumber -= 1;
       }
