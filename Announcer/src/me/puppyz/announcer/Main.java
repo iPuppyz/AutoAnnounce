@@ -1,4 +1,4 @@
-package me.puppyz.announcer;
+package me.puppyz.autoannounce;
 
 import java.util.List;
 import org.bukkit.Bukkit;
@@ -46,7 +46,11 @@ public class Main extends JavaPlugin {
     saveDefaultConfig();
     Broadcasts();
   }
-}
+  
+ public void onDisable() 
+ {
+   getLogger().info("AutoAnnoune has been successfully disabled!");
+}}
 
         
         
